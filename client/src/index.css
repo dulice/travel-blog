@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand+SC&family=Tapestry&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  font-family: 'Tapestry',
+  cursive;
+  color: #49beb7;
+}
+
+.hero {
+  background-image: url("../public/hero1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+}
+
+.post-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.MuiButton-root {
+  border-radius: 3rem;
+}
+
+.patrick-font {
+  font-family: 'Patrick Hand SC',
+  cursive;
+}
+
+.handlee-font {
+  font-family: 'Handlee',
+  cursive;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+.login {
+  background-image: url('../public/login.svg');
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.image {
+        margin-top: 3rem;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+}
